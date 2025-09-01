@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SomaComSwing_browser.jnlp">
+  <information>
+    <title>SomaComSwing</title>
+    <vendor>felip</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SomaComSwing.jar" size="4180" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.crusoemvideo.soma.TelaDeSoma"  name="SomaComSwing" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
